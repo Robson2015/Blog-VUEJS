@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <div class="header-bg">
-      <img src="./assets/images/header-bg.jpg">
-    </div>
+    <Headertemplate></Headertemplate>
     <Navigation></Navigation>
     <router-view></router-view>
     <footer class="col-sm-12">
@@ -12,23 +10,18 @@
 </template>
 
 <script>
-
+import Headertemplate from './components/Headertemplate'
 import Navigation from './components/Navigation'
 
 export default {
   name: 'app',
   components: {
-    'Navigation': Navigation
+    'Navigation': Navigation,
+    'Headertemplate': Headertemplate,
   }
 }
 </script>
 
-<style>
-
-h1:first-letter, h2:first-letter {
-  text-transform:uppercase;
-}
-img{
-  width: 100%;
-}
+<style lang="scss">
+@import './assets/sass/app';
 </style>

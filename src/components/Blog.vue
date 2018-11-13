@@ -1,4 +1,6 @@
 <template>
+<div class="row">
+
   <div class="col-sm-12">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
@@ -38,6 +40,7 @@
     >
     </paginate-links>
   </div>
+</div>
 </template>
 
 <script>
@@ -83,4 +86,5 @@ p{
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
 </style>

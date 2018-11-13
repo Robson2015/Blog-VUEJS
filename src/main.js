@@ -8,12 +8,11 @@ import Home from './components/Home'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
 
-// ENABLE USE 3RD PARTY PLUGINS
+
 Vue.use(VueResource);
 Vue.use(VuePaginate);
 Vue.use(VueRouter);
 
-// ENABLE SINGLE PAGE APP ROUTING
 const routes = [
 	{ path: '/post', component: Blog },
   { path: '/post/:id', component: PostDetail },

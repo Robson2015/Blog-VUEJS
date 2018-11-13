@@ -1,6 +1,7 @@
 <template>
   <div class="header">
     <h1>{{ msg }}</h1>
+    <img src="../assets/images/header-bg.jpg" alt="" class="bg-head">
   </div>
 </template>
 
@@ -9,9 +10,11 @@ export default {
   name: 'Headertemplate',
   data () {
     return {
-      msg: 'Tongasoe eto a'
+      msg: 'Vue JS bolg by ror@esokia.com',
     }
   }
 }
 
 </script>
+
+

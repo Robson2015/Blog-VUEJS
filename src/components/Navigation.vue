@@ -46,3 +46,16 @@ export default {
   }
 }
 </script>
+
+<style>
+.bg-light {
+    background-color:rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#fff;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+  color:red;
+}
+</style>
