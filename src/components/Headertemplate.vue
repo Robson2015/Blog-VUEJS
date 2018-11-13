@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <h1>{{ msg }}</h1>
+    <h2>{{ msg }}</h2>
     <img src="../assets/images/header-bg.jpg" alt="" class="bg-head">
   </div>
 </template>

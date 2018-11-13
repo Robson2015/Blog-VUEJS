@@ -8,7 +8,7 @@
         <li class="breadcrumb-item active" aria-current="page">{{ title }}</li>
       </ol>
     </nav>
-    <h1 class="text-center">{{ title }}</h1>
+    <h1 class="titlePage">{{ title }}</h1>
     <paginate
       name="blogs"
       :list="posts"
@@ -29,8 +29,8 @@
       :async="true"
       :show-step-links="true"
       :step-links="{
-        next: 'Next',
-        prev: 'Previous'
+        next: 'Suivant',
+        prev: 'Précédent'
       }"
       :classes="{
         'ul': 'pagination',
@@ -75,16 +75,6 @@ h2{
   color: #1d1d1d;
   border: 0;
 }
-p{
-  font-family: "Helvetica",sans-serif;
-    font-size: 13px;
-    font-size: .8125rem;
-    line-height: 18px;
-    color: #3d4652;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-}
+
 
 </style>

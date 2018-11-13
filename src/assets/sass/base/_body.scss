@@ -1,3 +1,17 @@
 body {
   position: relative;
 }
+h1{
+  &.titlePage{
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    display: table;
+    margin: 5px auto 50px;
+  }
+  &.titlePost{
+    text-transform: uppercase;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}

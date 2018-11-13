@@ -1,7 +1,13 @@
 <template>
    <div class="container">
-    <h1>Home</h1>
-    <p>Here is some information. This is the home page</p>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><router-link :to="''">Home</router-link></li>
+      </ol>
+    </nav>
+     <h1 class="titlePage"> Accueil </h1>
+     <h2>Bienvenue ici</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam nemo, illum dolor molestiae ratione voluptate, tenetur ea corporis debitis velit molestias maiores numquam, odit aliquid optio repellat? Doloribus, et dolorem?</p>
   </div>
 </template>
 

@@ -1,6 +1,17 @@
-h1:first-letter, h2:first-letter {
-  text-transform:uppercase;
-}
 img{
   width: 100%;
 }
+.post-view{
+  p{
+    font-family: "Helvetica",sans-serif;
+    font-size: 13px;
+    font-size: .8125rem;
+    line-height: 18px;
+    color: #3d4652;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
+

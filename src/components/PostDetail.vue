@@ -3,12 +3,16 @@
     <nav aria-label="breadcrumb">
 		 	<ol class="breadcrumb">
 				<li class="breadcrumb-item"><router-link :to="'/'">Home</router-link></li>
+        <li class="breadcrumb-item"><router-link :to="'/Post'">Actus</router-link></li>
 				<li class="breadcrumb-item active" aria-current="page">{{ post.title }}</li>
 			</ol>
 		</nav>
 
-		<h1>{{ post.title }}</h1>
+		<h1 class="titlePost">{{ post.title }}</h1>
 		<p>{{ post.body }}</p>
+
+
+
 
   </article>
 </template>
