@@ -2,7 +2,7 @@
   "name": "vue-blog",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "Peter Stehlik <peter@inovative.sk>",
+  "author": "robson esokia <ror@esokia.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
